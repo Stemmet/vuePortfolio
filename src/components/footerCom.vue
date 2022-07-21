@@ -67,7 +67,7 @@
   color:#165945;
   bottom: 0;
   width: 100%;
-  z-index: -1;
+  z-index: 1;
   position: relative;
 }
 .site-footer hr

@@ -6,10 +6,10 @@
       </div>
     </div>
     <section class="  pt-5 mt-5" id="hi">
-        <div class="container-sm">
+        <div class="container-sm text-center">
             <div class="row">
-                <h2 class="">Hi_</h2>
-                <div class="col-lg-8">
+                <h2 class="">Hi</h2>
+                <div>
                     <p>
                         I am hard-working and easy to work with. I am flexible, and this allows me to work in a team
                         environment. My passion within the tech industry started with gaming and then it blossomed into
@@ -61,21 +61,21 @@
                         </div>
                      </li>
                      <!-- Single Experience -->
-                     <li>
-                        <div class="timeline_content">
-                        <span>2022-</span>
-                           <h4>Life Choices Academy</h4>
-                           <p>The Life Choices academy is where I am currently undergoing a web development course. This is
-                        where i am learning the skills and tools I am hoping use during</p>
-                        </div>
-                     </li>
-
                        <li>
                         <div class="timeline_content">
                         <span>2022(January-February)</span>
                            <h4>Admin For The Family Business</h4>
                            <p>I worked for the family transport business for the beginning of the year. I had tasks such as
                         placing bookings on the system and regularly checking emails.</p>
+                        </div>
+                     </li>
+
+                     <li>
+                        <div class="timeline_content">
+                        <span>2022-</span>
+                           <h4>Life Choices Academy</h4>
+                           <p>The Life Choices academy is where I am currently undergoing a web development course. This is
+                        where i am learning the skills and tools I am hoping use during</p>
                         </div>
                      </li>
                   </ul>
@@ -401,7 +401,7 @@ h1 {
 p {
   font-size: max(10pt, 2.5vmin);
   line-height: 1.4;
-  color: #ed6b5b;
+  color: #f9ac66;
   margin-bottom: 1.5rem;
 }
 
@@ -436,7 +436,7 @@ p {
   border: 3px solid;
   border-color: #ed6b5b;
   transition: 0.3s ease-in-out 0.2s;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .image-content {
   position: absolute;
@@ -476,7 +476,6 @@ p {
   width: 60vmin;
   height: 100%;
   padding: 3vmin 4vmin;
-  background: #f9ac66;
   box-shadow: inset 1px 1px 15px 0 rgba(0 0 0 / 0.4);
   overflow-y: scroll;
 }
@@ -614,14 +613,14 @@ p {
 	content: "";
 	width: 60px;
 	height: 2px;
-	background-color: #ff3636;
+	background-color: #ed6b5b;
 	bottom: 0;
 	left: 50%;
 	margin-left: -30px;
 }
 .section-title h4:after {
 	position: absolute;
-	background-color: #ff3636;
+	background-color: #ed6b5b;
 	content: "";
 	width: 10px;
 	height: 10px;
@@ -640,7 +639,7 @@ ul.timeline-list:before {
 	content: "";
 	width: 2px;
 	height: 100%;
-	background-color: #ff3636;
+	background-color: #ed6b5b;
 	left: 50%;
 	top: 0;
 	-webkit-transform: translateX(-50%);
@@ -661,6 +660,7 @@ ul.timeline-list li .timeline_content {
 	padding: 30px;
 	float: left;
 	text-align: right;
+
 }
 ul.timeline-list li:nth-child(2n) .timeline_content {
 	float: right;

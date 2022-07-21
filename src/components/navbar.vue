@@ -9,6 +9,7 @@
     <ul class="menu__box">
       <li><a class="menu__item" href="/">Home</a></li>
 			<li><a class="menu__item" href="/about">About</a></li>
+      <li><a class="menu__item" href="/blog">Blog</a></li>
 			<li><a class="menu__item" href="/contact">Contact</a></li>
     </ul>
   </div>
@@ -80,6 +81,7 @@ export default {
   background-color: #F9AC66;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
   transition-duration: .25s;
+
 }
 .menu__item {
   display: block;
@@ -95,4 +97,6 @@ export default {
   background-color: #ED6B5B;
   color: #F9AC66;
 }
+
+
 </style>
