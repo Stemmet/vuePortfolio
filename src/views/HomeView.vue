@@ -6,14 +6,25 @@
     </div>
     <div class="info">
       <div id=container>
-    Cameron the 
+    CAMERON THE 
     <div id=flip>
-      <div><div>"aspiring web developer"</div></div>
-      <div><div>"son"</div></div>
-      <div><div>"Friend"</div></div>
+      <div><div>"ASPIRING WEB DEVELOPER"</div></div>
+      <div><div>"SON"</div></div>
+      <div><div>"FRIEND"</div></div>
     </div>
-    Stemmet
-  </div>
+    STEMMET
+    <div id=flip>
+      <div><div>EMAIL:</div></div>
+      <div><div>INSTAGRAM:</div></div>
+      <div><div>CONTACT NO:</div></div>
+    </div>
+    <div id=flip>
+      <div><div>cameronstemmet02@gmail.com</div></div>
+      <div><div>@stemmet_</div></div>
+      <div><div>+27 62 823 3134</div></div>
+    </div>
+    </div>
+  
     </div>
     <div class="clearfix"></div>
   </div>
@@ -24,10 +35,10 @@
 <style scoped>
 #container {
   color:#F9AC66;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size:4rem;
   font-weight:bold;
-  padding-top:250px;  
+  padding-top:20px;  
   width:100%;
   bottom:45%;
   display: block;
@@ -67,13 +78,6 @@
   71% {margin-top:-225px;}
   99.99% {margin-top:-225px;}
   100% {margin-top:-235px;}
-}
-
-#cameron {
-  width: 400px;
-  height: 100%; 
-  object-fit: cover;
-  
 }
 
 * {
@@ -121,6 +125,7 @@
 
 .landing-page .image img {
     max-width: 100%;
+    height: 90vh;
 }
 
 

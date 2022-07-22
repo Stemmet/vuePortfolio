@@ -85,57 +85,57 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <p>HTML5</p>
-                        <div class="progress" style="height: 10px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        <div class="progress" style="height: 10px; background-color: #f9ac66;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated text-dark"
                                 role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 70%">70%</div>
+                                style="width: 70%; background-color: #ed6b5b;">70%</div>
                         </div>
                         <p>CSS3</p>
-                        <div class="progress" style="height: 10px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        <div class="progress" style="height: 10px; background-color: #f9ac66;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated text-dark"
                                 role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 65%">65%</div>
+                                style="width: 65%; background-color: #ed6b5b;">65%</div>
                         </div>
                         <p>BOOTSTRAP 5</p>
-                        <div class="progress" style="height: 10px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        <div class="progress" style="height: 10px; background-color: #f9ac66;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated text-dark"
                                 role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 80%">80%</div>
+                                style="width: 80%; background-color: #ed6b5b;">80%</div>
                         </div>
                         <p>GIT</p>
-                        <div class="progress" style="height: 10px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        <div class="progress" style="height: 10px; background-color: #f9ac66;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated text-dark"
                                 role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 70%">70%</div>
+                                style="width: 70%; background-color: #ed6b5b;">70%</div>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <p>COMMUNICATION</p>
-                        <div class="progress" style="height: 10px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        <div class="progress" style="height: 10px; background-color: #f9ac66;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated text-dark"
                                 role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 80%">80%</div>
+                                style="width: 80%; background-color: #ed6b5b;">80%</div>
                         </div>
                         <p>TEAMWORK</p>
-                        <div class="progress" style="height: 10px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        <div class="progress" style="height: 10px; background-color: #f9ac66;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated text-dark"
                                 role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 90%">90%</div>
+                                style="width: 90%; background-color: #ed6b5b;">90%</div>
                         </div>
                         <div>
                             <p>AMBITION</p>
-                            <div class="progress" style="height: 10px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                            <div class="progress" style="height: 10px; background-color: #f9ac66;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated text-dark"
                                     role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 95%">95%</div>
+                                    style="width: 95%; background-color: #ed6b5b">95%</div>
                             </div>
                         </div>
 
                         <p>LOYALTY</p>
-                        <div class="progress" style="height: 10px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info text-dark"
+                        <div class="progress" style="height: 10px; background-color: #f9ac66;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated text-dark"
                                 role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 99%">99%</div>
+                                style="width: 99%; background-color: #ed6b5b;">99%</div>
                         </div>
                     </div>
             </div>
@@ -143,28 +143,25 @@
 	  </section>
     </div>
 
-  <div>
-    <div class="wrapper">
+    <div class="wrapper" id="projects">
       <div class="container">
         <h1>projects</h1>
       </div>
     </div>
     <div class="column">
       <div class="row">
-        <div class="col-1">
-        </div>
-        <div class="col-4">
+        <div>
           <div class="wrap animate pop">
             <div class="overlay">
               <div class="overlay-content animate slide-left delay-2">
                 <h1 class="animate slide-left pop delay-4" id="testiHeading">
-                  Trees
+                  Project 1:
                 </h1>
                 <p class="animate slide-left pop delay-5">
-                  Kingdom: <em>Plantae</em>
+                  Property-Listing Site
                 </p>
               </div>
-              <div class="image-content animate slide delay-5"></div>
+              <div class="image-content animate slide delay-5" id="proj1"></div>
               <div class="dots animate">
                 <div class="dot animate slide-up delay-6"></div>
                 <div class="dot animate slide-up delay-7"></div>
@@ -172,40 +169,29 @@
               </div>
             </div>
             <div class="text">
+              <h2>Property Listing Site</h2>
               <p>
-                Trees are woody perennial plants that are a member of the
-                kingdom <em>Plantae</em>. All species of trees are grouped by
-                their genus, family, and order. This helps make identifying and
-                studying trees easier.
+                This is a property listing site I named houzez, it's built on Bootstrap, HTML, CSS, Javascript and is hosted on netlify.
               </p>
-              <p>
-                Apart from providing oxygen for the planet and beauty when they
-                bloom or turn color, trees are very useful. Certain species of
-                hardwood and softwood trees are excellent for timber, making
-                furniture, and paper.
-              </p>
-              <p>
-                When managed properly, trees are a good source of renewable
-                energy and construction material.
-              </p>
+              <div class="d-grid py-2 d-md-block">
+                <a class="btn btn-primary" type="button" href="">Live Link</a>
+                <a class="btn btn-secondary" type="button" href="">Github <i class="bi bi-github"></i></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-1">
-
-        </div>
-        <div class="col-4">
+        <div>
           <div class="wrap animate pop">
             <div class="overlay">
               <div class="overlay-content animate slide-left delay-2">
                 <h1 class="animate slide-left pop delay-4" id="testiHeading">
-                  Trees
+                  Project 2:
                 </h1>
                 <p class="animate slide-left pop delay-5">
-                  Kingdom: <em>Plantae</em>
+                  Calculator
                 </p>
               </div>
-              <div class="image-content animate slide delay-5"></div>
+              <div class="image-content animate slide delay-5" id="proj2"></div>
               <div class="dots animate">
                 <div class="dot animate slide-up delay-6"></div>
                 <div class="dot animate slide-up delay-7"></div>
@@ -213,43 +199,29 @@
               </div>
             </div>
             <div class="text">
+              <h2>Calculator</h2>
               <p>
-                Trees are woody perennial plants that are a member of the
-                kingdom <em>Plantae</em>. All species of trees are grouped by
-                their genus, family, and order. This helps make identifying and
-                studying trees easier.
+                This is a functional calculator built with HTML, CSS and Javascript.
               </p>
-              <p>
-                Apart from providing oxygen for the planet and beauty when they
-                bloom or turn color, trees are very useful. Certain species of
-                hardwood and softwood trees are excellent for timber, making
-                furniture, and paper.
-              </p>
-              <p>
-                When managed properly, trees are a good source of renewable
-                energy and construction material.
-              </p>
+              <div class="d-grid py-2 d-md-block">
+                <a class="btn btn-primary" type="button" href="">Live Link</a>
+                <a class="btn btn-secondary" type="button" href="">Github <i class="bi bi-github"></i></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-1">
-        </div>
-        <div class="col-1">
-        </div>
-        <div class="col-1">
-        </div>
-        <div class="col-4">
+        <div>
           <div class="wrap animate pop">
             <div class="overlay">
               <div class="overlay-content animate slide-left delay-2">
                 <h1 class="animate slide-left pop delay-4" id="testiHeading">
-                  Trees
+                  Project 3:
                 </h1>
                 <p class="animate slide-left pop delay-5">
-                  Kingdom: <em>Plantae</em>
+                  To Do App
                 </p>
               </div>
-              <div class="image-content animate slide delay-5"></div>
+              <div class="image-content animate slide delay-5" id="proj3"></div>
               <div class="dots animate">
                 <div class="dot animate slide-up delay-6"></div>
                 <div class="dot animate slide-up delay-7"></div>
@@ -257,40 +229,29 @@
               </div>
             </div>
             <div class="text">
+              <h2>To Do App</h2>
               <p>
-                Trees are woody perennial plants that are a member of the
-                kingdom <em>Plantae</em>. All species of trees are grouped by
-                their genus, family, and order. This helps make identifying and
-                studying trees easier.
+                This is a To Do list app with and edit and delete function.
               </p>
-              <p>
-                Apart from providing oxygen for the planet and beauty when they
-                bloom or turn color, trees are very useful. Certain species of
-                hardwood and softwood trees are excellent for timber, making
-                furniture, and paper.
-              </p>
-              <p>
-                When managed properly, trees are a good source of renewable
-                energy and construction material.
-              </p>
+              <div class="d-grid py-2 d-md-block">
+                <a class="btn btn-primary" type="button" href="">Live Link</a>
+                <a class="btn btn-secondary" type="button" href="">Github <i class="bi bi-github"></i></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-1">
-
-        </div>
-        <div class="col-4">
+        <div>
           <div class="wrap animate pop">
             <div class="overlay">
               <div class="overlay-content animate slide-left delay-2">
                 <h1 class="animate slide-left pop delay-4" id="testiHeading">
-                  Trees
+                  Project 4:
                 </h1>
                 <p class="animate slide-left pop delay-5">
-                  Kingdom: <em>Plantae</em>
+                  Portfolio
                 </p>
               </div>
-              <div class="image-content animate slide delay-5"></div>
+              <div class="image-content animate slide delay-5" id="proj4"></div>
               <div class="dots animate">
                 <div class="dot animate slide-up delay-6"></div>
                 <div class="dot animate slide-up delay-7"></div>
@@ -298,28 +259,89 @@
               </div>
             </div>
             <div class="text">
+              <h2>Portfolio</h2>
               <p>
-                Trees are woody perennial plants that are a member of the
-                kingdom <em>Plantae</em>. All species of trees are grouped by
-                their genus, family, and order. This helps make identifying and
-                studying trees easier.
+                This is my former Portfolio, built on HTML, CSS, Bootstrap and very limited JavaScript. It is also fully responsive.
               </p>
-              <p>
-                Apart from providing oxygen for the planet and beauty when they
-                bloom or turn color, trees are very useful. Certain species of
-                hardwood and softwood trees are excellent for timber, making
-                furniture, and paper.
-              </p>
-              <p>
-                When managed properly, trees are a good source of renewable
-                energy and construction material.
-              </p>
+              <div class="d-grid py-2 d-md-block">
+                <a class="btn btn-primary" type="button" href="">Live Link</a>
+                <a class="btn btn-secondary" type="button" href="">Github <i class="bi bi-github"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
       </div>
-  </div>
+  <div>
+    <div class="column">
+      <div class="row">
+        <div class="col-1">
+          </div>
+        <div>
+          <div class="wrap animate pop">
+            <div class="overlay">
+              <div class="overlay-content animate slide-left delay-2">
+                <h1 class="animate slide-left pop delay-4" id="testiHeading">
+                  Project 5:
+                </h1>
+                <p class="animate slide-left pop delay-5">
+                  BMI Calculator
+                </p>
+              </div>
+              <div class="image-content animate slide delay-5" id="proj5"></div>
+              <div class="dots animate">
+                <div class="dot animate slide-up delay-6"></div>
+                <div class="dot animate slide-up delay-7"></div>
+                <div class="dot animate slide-up delay-8"></div>
+              </div>
+            </div>
+            <div class="text">
+              <h2>BMI Calculator</h2>
+              <p>
+                This is a BMI Calculator that calculates your body mass built with HTML and Javascript
+              </p>
+              <div class="d-grid py-2 d-md-block">
+                <a class="btn btn-primary" type="button" href="">Live Link</a>
+                <a class="btn btn-secondary" type="button" href="">Github <i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="wrap animate pop">
+            <div class="overlay">
+              <div class="overlay-content animate slide-left delay-2">
+                <h1 class="animate slide-left pop delay-4" id="testiHeading">
+                  Project 6
+                </h1>
+                <p class="animate slide-left pop delay-5">
+                  CSS Rainbow
+                </p>
+              </div>
+              <div class="image-content animate slide delay-5"  id="proj6"></div>
+              <div class="dots animate">
+                <div class="dot animate slide-up delay-6"></div>
+                <div class="dot animate slide-up delay-7"></div>
+                <div class="dot animate slide-up delay-8"></div>
+              </div>
+            </div>
+            <div class="text">
+              <h2>CSS Rainbow</h2>
+              <p>
+                This is a CSS rainbow built with CSS, it's just a rainbow...Nothing fancy
+              </p>
+              <div class="d-grid py-2 d-md-block">
+                <a class="btn btn-primary" type="button" href="">Live Link</a>
+                <a class="btn btn-secondary" type="button" href="">Github <i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
 
   <div>
     <div class="wrapper">
@@ -328,6 +350,124 @@
       </div>
     </div>
   </div>
+  <section id="testi">
+        <div class="container testi bg-transparent">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner py-5 text-center">
+                    <div class="carousel-item active">
+                        <img src="https://i.postimg.cc/3JxzgBsg/joel2-1.jpg" alt="" id="testiImg">
+                        <figure class="text-cent col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Along with his undeniable talent, Cameron has always been an absolute joy to work
+                                    with.
+                                    He is a true team player, and always manages to foster positive discussions in HTML
+                                    coding and bring the best out of other students- He is a good candidate for your
+                                    organization.
+                                    <br>
+                                    <br>
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Joel Mukanya- Coding Lecturer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.postimg.cc/brGGSMjm/Ikhlaas-2.jpg" alt="" id="testiImg">
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron is bright young lad who is well respected by his peers. He has produced
+                                    exceptional work thus far and always takes his work seriously. We are lucky to have
+                                    him in this field. He loves shrek!
+                                    <br>
+                                    <br>
+                                    <br>
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Ikhlaas Rawoot- Peer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.postimg.cc/8PZ8vhw5/Cameron-3.jpg" alt="" id="testiImg">
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron Stemmet is an incredibly motivated specimen , he strives to reach his goals
+                                    and will put twice the amount of work in to achieve everything . He is a extremely
+                                    talented person with many skills.
+                                    <br>
+                                    <br>
+                                    <br>
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Mudassar Khopatkar- Peer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.postimg.cc/Dw3gFQq9/Tshimologo-King.jpg" alt="" id="testiImg">
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron is a genuine, kind, loving, inspirational and entertaining fellow. He brings
+                                    life into any room and any team, just make sure it's not your kind.
+                                    He has the capability and sensibility to make breakthroughs with his steadfast
+                                    dedication and discipline. He is one of the best developers I know. My inspiration.
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Tshimologo King Mabena- Peer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.postimg.cc/3JV5YqRt/Joshua-1.jpg" alt="" id="testiImg">
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron is a funny, focused and driven character. He views things differently from
+                                    others and this allows him to handle situation differently. Cameron knows how to get
+                                    you in a mood like no other he makes you want to do better.
+                                    <br>
+                                    <br>
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Joshua Solomons- Peer</figcaption>
+                        </figure>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.postimg.cc/8PZ8vhw5/Cameron-3.jpg" alt="" id="testiImg">
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron has a super positive attitude and always brings the energy, It would be
+                                    difficult to maintain a bad mood when he's around. He's intelligent and easy-going
+                                    which makes doing business with him an absolute pleasure
+                                    <br>
+                                    <br>
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Jesse Spence- Peer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.postimg.cc/Xqy99tk2/Muddathir-1.jpg" alt="" id="testiImg">
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron is a developer with potential to become something great in the future. It is a pleasure watching his skill grow with each project he is given and motivates me and other to do better. He will add an enormous amount of value to any team
+                                    <br>
+                                    <br>
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Muddathir Dawood- Peer</figcaption>
+                        </figure>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 <script></script>
@@ -356,7 +496,7 @@
 
 h1 {
   font-family: "Exo", sans-serif;
-  font-size: 15vw;
+  font-size: 10vw;
   font-weight: 900;
   width: -webkit-min-content;
   width: -moz-min-content;
@@ -388,17 +528,16 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
-  h1 {
-    font-size: 6.5rem;
-  }
+  
 }
 
 #testiHeading {
-  font-size: 5.25vmin;
-  text-align: center;
-  color: white;
+  font-size: 2.45vmin;
+  text-align: left;
+  color: #ed6b5b;
+  z-index: 1;
 }
-p {
+.text {
   font-size: max(10pt, 2.5vmin);
   line-height: 1.4;
   color: #f9ac66;
@@ -410,7 +549,7 @@ p {
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 85vmin;
-  height: 25em;
+  height: 13.8em;
   margin: 2rem auto;
   transition: 0.3s ease-in-out;
   position: relative;
@@ -436,17 +575,83 @@ p {
   border: 3px solid;
   border-color: #ed6b5b;
   transition: 0.3s ease-in-out 0.2s;
-  /* z-index: 1; */
 }
-.image-content {
+#proj1 {
   position: absolute;
   top: 0;
   right: 0;
   width: 60vmin;
   height: 100%;
-  background-image: url("https://assets.codepen.io/4787486/trees.png");
-  background-size: cover;
+  background-image: url("../assets/Screenshot\ 2022-07-22\ 110246.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   transition: 0.3s ease-in-out;
+  z-index: 0;
+}
+
+#proj2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60vmin;
+  height: 100%;
+  background-image: url("../assets/Screenshot\ 2022-07-22\ 110343.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  z-index: 0;
+}
+
+#proj3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60vmin;
+  height: 100%;
+  background-image: url("../assets/Screenshot\ 2022-07-22\ 110440.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  z-index: 0;
+}
+
+#proj4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60vmin;
+  height: 100%;
+  background-image: url("../assets/Screenshot\ 2022-07-22\ 110536.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  z-index: 0;
+}
+
+#proj5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60vmin;
+  height: 100%;
+  background-image: url("../assets/Screenshot\ 2022-07-22\ 110743.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  z-index: 0;
+}
+
+#proj6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60vmin;
+  height: 100%;
+  background-image: url("../assets/Screenshot\ 2022-07-22\ 110937.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  z-index: 0;
 }
 
 .dots {
@@ -486,11 +691,11 @@ p {
 .wrap:hover .image-content {
   width: 30vmin;
 }
-.wrap:hover .overlay-content {
+/* .wrap:hover .overlay-content {
   border: none;
   transition-delay: 0.2s;
   transform: translateX(60vmin);
-}
+} */
 .wrap:hover .dots {
   transform: translateX(1rem);
 }
@@ -656,21 +861,23 @@ ul.timeline-list li {
 }
 ul.timeline-list li .timeline_content {
 	width: 45%;
-	color: #ed6b5b;
+	color: #f9ac66;
 	padding: 30px;
 	float: left;
 	text-align: right;
-
+   font-size: max(10pt, 2.5vmin);
 }
 ul.timeline-list li:nth-child(2n) .timeline_content {
 	float: right;
 	text-align: left;
 }
+
 .timeline_content h4 {
 	font-size: 22px;
 	font-weight: 600;
 	margin: 10px 0;
 }
+
 ul.timeline-list li:before {
 	position: absolute;
 	content: "";
@@ -687,6 +894,25 @@ ul.timeline-list li:before {
 	font-size: 18px;
 	font-weight: 700;
 	color: #ed6b5b;
+}
+
+#testiImg{
+  border-radius: 100%;
+  height: 50vh;
+  width: 50vh;
+  object-fit: cover;
+  }
+
+
+#small{
+  display: none;
+}
+@media only screen and (max-width: 576px){
+
+ul.timeline-list li:nth-child(2n) .timeline_content {
+	float: left;
+	text-align: right;
+}
 }
 
 </style>

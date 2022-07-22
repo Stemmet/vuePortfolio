@@ -386,7 +386,7 @@
 </template>
 <script>
 </script>
-<style>
+<style scoped>
 *{
     padding: 0;
     margin: 0;
@@ -410,7 +410,7 @@
   color:#F9AC66;
   text-transform: uppercase;
   font-size:4rem;
-  padding-top:250px;  
+  padding-top:30px;  
   width:100%;
   bottom:45%;
   display: block;
@@ -418,7 +418,7 @@
   font-family:'League Gothic';
   line-height: 1.15;
   z-index: 1;
-  height: 80vh;
+  height: 40vh;
 }
 
 #flip {
