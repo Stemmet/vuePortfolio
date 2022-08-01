@@ -421,6 +421,7 @@
   height: 40vh;
 }
 
+
 #flip {
   height: 70px;
   overflow:hidden;
